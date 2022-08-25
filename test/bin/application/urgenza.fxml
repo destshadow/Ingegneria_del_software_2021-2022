@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+
+<Pane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"  fx:controller="application.Controller" minWidth="640" minHeight="480">
+<GridPane layoutX="10" layoutY="10" hgap="10">
+
+        <Text text="Nome" GridPane.columnIndex="0" GridPane.rowIndex="0"  />
+        <TextField fx:id="nome" GridPane.columnIndex="1" GridPane.rowIndex="0"  />
+        <Text text="Cognome" GridPane.columnIndex="0" GridPane.rowIndex="1"  />
+        <TextField fx:id="cognome" GridPane.columnIndex="1" GridPane.rowIndex="1"  />
+        <Text text="Telefono" GridPane.columnIndex="0" GridPane.rowIndex="2"  />
+        <TextField fx:id="telefono" GridPane.columnIndex="1" GridPane.rowIndex="2"  />
+        <Text text="Email" GridPane.columnIndex="0" GridPane.rowIndex="3"  />
+        <TextField fx:id="email" GridPane.columnIndex="1" GridPane.rowIndex="3"  />
+        
+        <Button text="next" GridPane.columnIndex="1" GridPane.rowIndex="12" onAction="#Menu"/>
+        <Label fx:id = "label" text="" GridPane.columnIndex="1" GridPane.rowIndex="14"  />
+        
+   </GridPane> 
+   
+
+
+</Pane>

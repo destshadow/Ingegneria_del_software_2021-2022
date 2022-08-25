@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+
+<Pane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"  fx:controller="application.Controller" minWidth="640" minHeight="480">
+<GridPane layoutX="10" layoutY="10" hgap="10">
+         
+        <Label text="User" GridPane.columnIndex="0" GridPane.rowIndex="0"  />
+        <TextField fx:id="user"  GridPane.columnIndex="1" GridPane.rowIndex="0"  />
+        <Text text="Password" GridPane.columnIndex="0" GridPane.rowIndex="1"  />
+        <PasswordField fx:id="password" GridPane.columnIndex="1" GridPane.rowIndex="1"  />
+        <Text text="Nome" GridPane.columnIndex="0" GridPane.rowIndex="2"  />
+        <TextField fx:id="nome" GridPane.columnIndex="1" GridPane.rowIndex="2"  />
+        <Text text="cognome" GridPane.columnIndex="0" GridPane.rowIndex="3"  />
+        <TextField fx:id="cognome" GridPane.columnIndex="1" GridPane.rowIndex="3"  />
+        <Text text="Data di nascita" GridPane.columnIndex="0" GridPane.rowIndex="4"  />
+        <TextField fx:id="data" GridPane.columnIndex="1" GridPane.rowIndex="4"  />
+        <Text text="Luogo di nascita" GridPane.columnIndex="0" GridPane.rowIndex="5"  />
+        <TextField fx:id="luogo" GridPane.columnIndex="1" GridPane.rowIndex="5"  />
+        <Text text="Telefono" GridPane.columnIndex="0" GridPane.rowIndex="6"  />
+        <TextField fx:id="telefono" GridPane.columnIndex="1" GridPane.rowIndex="6"  />
+        <Text text="Email" GridPane.columnIndex="0" GridPane.rowIndex="7"  />
+        <TextField fx:id="email" GridPane.columnIndex="1" GridPane.rowIndex="7"  />
+        
+        
+         <Button text="login" GridPane.columnIndex="1" GridPane.rowIndex="12" onAction="#Registrazione"/>
+         
+         <Label fx:id = "label" text="" GridPane.columnIndex="1" GridPane.rowIndex="14"  />
+         
+   </GridPane> 
+   
+
+
+</Pane>

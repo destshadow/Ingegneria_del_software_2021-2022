@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+
+<Pane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"  fx:controller="application.Controller" minWidth="640" minHeight="480">
+<GridPane layoutX="10" layoutY="10" hgap="10">
+
+        <Text text="Nome" GridPane.columnIndex="0" GridPane.rowIndex="0"  />
+        <TextField fx:id="nome" GridPane.columnIndex="1" GridPane.rowIndex="0"  />
+
+        <Text text="cognome" GridPane.columnIndex="0" GridPane.rowIndex="1"  />
+        <TextField fx:id="cognome" GridPane.columnIndex="1" GridPane.rowIndex="1"  />
+
+        <Text text="Data di nascita" GridPane.columnIndex="0" GridPane.rowIndex="2"  />
+        <TextField fx:id="data" GridPane.columnIndex="1" GridPane.rowIndex="2"  />
+
+        <Text text="Luogo di nascita" GridPane.columnIndex="0" GridPane.rowIndex="3"  />
+        <TextField fx:id="luogo" GridPane.columnIndex="1" GridPane.rowIndex="3"  />
+
+        <Text text="Nazionalità" GridPane.columnIndex="0" GridPane.rowIndex="4"  />
+        <TextField fx:id="nazionalita" GridPane.columnIndex="1" GridPane.rowIndex="4"  />
+
+        <Text text="Via " GridPane.columnIndex="0" GridPane.rowIndex="5"  />
+        <TextField fx:id="via" GridPane.columnIndex="1" GridPane.rowIndex="5"  />
+        <Text text="Civico " GridPane.columnIndex="2" GridPane.rowIndex="5"  />
+        <TextField fx:id="civico" GridPane.columnIndex="3" GridPane.rowIndex="5"  />
+        <Text text="CAP " GridPane.columnIndex="4" GridPane.rowIndex="5"  />
+        <TextField fx:id="cap" GridPane.columnIndex="5" GridPane.rowIndex="5"  />
+        <Text text="Città" GridPane.columnIndex="6" GridPane.rowIndex="5"  />
+        <TextField fx:id="citta" GridPane.columnIndex="7" GridPane.rowIndex="5"  />
+
+        <Text text="Telefono" GridPane.columnIndex="0" GridPane.rowIndex="6"  />
+        <TextField fx:id="telefono" GridPane.columnIndex="1" GridPane.rowIndex="6"  />
+
+        <Text text="Email" GridPane.columnIndex="0" GridPane.rowIndex="7"  />
+        <TextField fx:id="email" GridPane.columnIndex="1" GridPane.rowIndex="7"  />
+
+        <Text text="Esperienze lavorative" GridPane.columnIndex="0" GridPane.rowIndex="8"  />
+        <TextField fx:id="specializzazioni" GridPane.columnIndex="1" GridPane.rowIndex="8"  />
+
+        <Text text="Lingua parlata" GridPane.columnIndex="0" GridPane.rowIndex="9"  />
+        <TextField fx:id="lingua" GridPane.columnIndex="1" GridPane.rowIndex="9"  />
+
+        <Text text="Patente" GridPane.columnIndex="0" GridPane.rowIndex="10"  />
+        <TextField fx:id="patente" GridPane.columnIndex="1" GridPane.rowIndex="10"  />
+
+        <Text text="Auto" GridPane.columnIndex="0" GridPane.rowIndex="11"  />
+        <Button text="si" GridPane.columnIndex="1" GridPane.rowIndex="11" onAction="#Automunito"/>
+        <Button text="no" GridPane.columnIndex="2" GridPane.rowIndex="11" onAction="#NonAutomunito"/>
+        
+        <Text text="Dispinibile da " GridPane.columnIndex="0" GridPane.rowIndex="13"  />
+        <TextField fx:id="inizio" GridPane.columnIndex="1" GridPane.rowIndex="13"  />
+        <Text text="fino a  " GridPane.columnIndex="0" GridPane.rowIndex="14"  />
+        <TextField fx:id="fine" GridPane.columnIndex="1" GridPane.rowIndex="14"  />
+        <Text text="Zona di preferenza" GridPane.columnIndex="0" GridPane.rowIndex="15"  />
+        <TextField fx:id="zona" GridPane.columnIndex="1" GridPane.rowIndex="15"  />
+        
+        <Button text="next" GridPane.columnIndex="1" GridPane.rowIndex="16" onAction="#InserisciUnNuovoLavoratore"/>
+        
+        <Label fx:id = "label" text="" GridPane.columnIndex="1" GridPane.rowIndex="18"  />
+   </GridPane> 
+   
+
+
+</Pane>

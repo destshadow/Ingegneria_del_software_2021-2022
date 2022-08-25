@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+
+<Pane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"  fx:controller="application.Controller" minWidth="640" minHeight="480">
+<GridPane layoutX="10" layoutY="10" hgap="10">
+
+       
+         <Button text="inserimento" GridPane.columnIndex="0" GridPane.rowIndex="0" onAction="#CreaLavoratore"/>
+         <Button text="aggiungi" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#Lavoro"/>
+         <Button text="ricerca" GridPane.columnIndex="0" GridPane.rowIndex="2" onAction="#Ricerca"/>
+         <Button text="log out" GridPane.columnIndex="0" GridPane.rowIndex="3" onAction="#Finish"/>
+         
+        
+   </GridPane> 
+   
+
+
+</Pane>

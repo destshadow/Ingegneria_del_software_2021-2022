@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+
+<Pane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"  fx:controller="application.Controller" minWidth="640" minHeight="480">
+<GridPane layoutX="10" layoutY="10" hgap="10">
+          
+        <Text text="Nome lavoratore" GridPane.columnIndex="0" GridPane.rowIndex="0"  />
+        <TextField fx:id="nome" GridPane.columnIndex="1" GridPane.rowIndex="0"  />
+
+
+        <Text text="Data inizio lavoro" GridPane.columnIndex="0" GridPane.rowIndex="1"  />
+        <TextField fx:id="inizio" GridPane.columnIndex="1" GridPane.rowIndex="1"  />
+        
+        <Text text="Data fine lavoro" GridPane.columnIndex="0" GridPane.rowIndex="2"  />
+        <TextField fx:id="fine" GridPane.columnIndex="1" GridPane.rowIndex="2"  />
+        
+        <Text text="Azienda" GridPane.columnIndex="0" GridPane.rowIndex="3"  />
+        <TextField fx:id="azienda" GridPane.columnIndex="1" GridPane.rowIndex="3"  />
+        
+        <Text text="Luogo" GridPane.columnIndex="0" GridPane.rowIndex="4"  />
+        <TextField fx:id="luogo" GridPane.columnIndex="1" GridPane.rowIndex="4"  />
+        
+        <Text text="Mansioni" GridPane.columnIndex="0" GridPane.rowIndex="5"  />
+        <TextField fx:id="mansioni" GridPane.columnIndex="1" GridPane.rowIndex="5"  />
+        
+        <Text text="Retribuzione" GridPane.columnIndex="0" GridPane.rowIndex="6"  />
+        <TextField fx:id="retribuzione" GridPane.columnIndex="1" GridPane.rowIndex="6"  />
+        
+         <Button text="next" GridPane.columnIndex="1" GridPane.rowIndex="12" onAction="#MenuLavoro"/>
+         
+         <Label fx:id = "label" text="" GridPane.columnIndex="1" GridPane.rowIndex="14"  />
+        
+   </GridPane> 
+   
+
+
+</Pane>

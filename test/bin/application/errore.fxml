@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+
+<Pane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"  fx:controller="application.Controller" minWidth="640" minHeight="480">
+<GridPane layoutX="10" layoutY="10" hgap="10">
+         
+        <Label fx:id = "label" text="lavoratore non registrato" GridPane.columnIndex="1" GridPane.rowIndex="1"  />
+       
+        <Button text="menu" GridPane.columnIndex="1" GridPane.rowIndex="12" onAction="#TornaAlMenu"/>
+         
+         
+   </GridPane> 
+   
+
+
+</Pane>

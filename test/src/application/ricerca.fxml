@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+
+<Pane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"  fx:controller="application.Controller" minWidth="640" minHeight="480">
+    <GridPane layoutX="10" layoutY="10" hgap="10">
+
+        <Text text="Nome" GridPane.columnIndex="0" GridPane.rowIndex="0"  />
+        <TextField fx:id="nome" GridPane.columnIndex="1" GridPane.rowIndex="0"  />
+        <Button text="and" GridPane.columnIndex="2" GridPane.rowIndex="0" onAction="#AND"/>
+        <Button text="or" GridPane.columnIndex="3" GridPane.rowIndex="0" onAction="#OR"/>
+
+        <Text text="Cognome" GridPane.columnIndex="0" GridPane.rowIndex="1"  />
+        <TextField fx:id="cognome" GridPane.columnIndex="1" GridPane.rowIndex="1"  />
+        <Button text="and" GridPane.columnIndex="2" GridPane.rowIndex="1" onAction="#AND"/>
+        <Button text="or" GridPane.columnIndex="3" GridPane.rowIndex="1" onAction="#OR"/>
+
+        <Text text="Telefono" GridPane.columnIndex="0" GridPane.rowIndex="2"  />
+        <TextField fx:id="telefono" GridPane.columnIndex="1" GridPane.rowIndex="2"  />
+        <Button text="and" GridPane.columnIndex="2" GridPane.rowIndex="2" onAction="#AND"/>
+        <Button text="or" GridPane.columnIndex="3" GridPane.rowIndex="2" onAction="#OR"/>
+
+        <Text text="Email" GridPane.columnIndex="0" GridPane.rowIndex="3"  />
+        <TextField fx:id="email" GridPane.columnIndex="1" GridPane.rowIndex="3"  />
+        <Button text="and" GridPane.columnIndex="2" GridPane.rowIndex="3" onAction="#AND"/>
+        <Button text="or" GridPane.columnIndex="3" GridPane.rowIndex="3" onAction="#OR"/>
+
+
+        <Text text="Lingua" GridPane.columnIndex="0" GridPane.rowIndex="4"  />
+        <TextField fx:id="lingua" GridPane.columnIndex="1" GridPane.rowIndex="4"  />
+        <Button text="and" GridPane.columnIndex="2" GridPane.rowIndex="4" onAction="#AND"/>
+        <Button text="or" GridPane.columnIndex="3" GridPane.rowIndex="4" onAction="#OR"/>
+        
+
+        <Text text="Inizio disponibilità" GridPane.columnIndex="0" GridPane.rowIndex="5"  />
+        <TextField fx:id="inizio" GridPane.columnIndex="1" GridPane.rowIndex="5"  />
+        <Button text="and" GridPane.columnIndex="2" GridPane.rowIndex="5" onAction="#AND"/>
+        <Button text="or" GridPane.columnIndex="3" GridPane.rowIndex="5" onAction="#OR"/>
+        
+
+        <Text text="Fine disponibilità" GridPane.columnIndex="0" GridPane.rowIndex="6"  />
+        <TextField fx:id="fine" GridPane.columnIndex="1" GridPane.rowIndex="6"  />
+        <Button text="and" GridPane.columnIndex="2" GridPane.rowIndex="6" onAction="#AND"/>
+        <Button text="or" GridPane.columnIndex="3" GridPane.rowIndex="6" onAction="#OR"/>
+        
+
+        <Text text="Specializzazioni" GridPane.columnIndex="0" GridPane.rowIndex="7"  />
+        <TextField fx:id="specializzazioni" GridPane.columnIndex="1" GridPane.rowIndex="7"  />
+        <Button text="and" GridPane.columnIndex="2" GridPane.rowIndex="7" onAction="#AND"/>
+        <Button text="or" GridPane.columnIndex="3" GridPane.rowIndex="7" onAction="#OR"/>
+       
+        <Text text="Patente" GridPane.columnIndex="0" GridPane.rowIndex="8"  />
+        <TextField fx:id="patente" GridPane.columnIndex="1" GridPane.rowIndex="8"  />
+        <Button text="and" GridPane.columnIndex="2" GridPane.rowIndex="8" onAction="#AND"/>
+        <Button text="or" GridPane.columnIndex="3" GridPane.rowIndex="8" onAction="#OR"/>
+
+
+        <Text text="Auto" GridPane.columnIndex="0" GridPane.rowIndex="9"  />
+        <Button text="si" GridPane.columnIndex="1" GridPane.rowIndex="9" onAction="#Automunito"/>
+        <Button text="no" GridPane.columnIndex="2" GridPane.rowIndex="9" onAction="#NonAutomunito"/>
+        <Button text="and" GridPane.columnIndex="3" GridPane.rowIndex="9" onAction="#AND"/>
+        <Button text="or" GridPane.columnIndex="4" GridPane.rowIndex="9" onAction="#OR"/>
+
+        
+        <Text text="Residenza:Via " GridPane.columnIndex="0" GridPane.rowIndex="10"  />
+        <TextField fx:id="via" GridPane.columnIndex="1" GridPane.rowIndex="10"  />
+        <Text text="Civico " GridPane.columnIndex="2" GridPane.rowIndex="10"  />
+        <TextField fx:id="civico" GridPane.columnIndex="3" GridPane.rowIndex="10"  />
+        <Text text="CAP " GridPane.columnIndex="4" GridPane.rowIndex="10"  />
+        <TextField fx:id="cap" GridPane.columnIndex="5" GridPane.rowIndex="10"  />
+        <Text text="Città" GridPane.columnIndex="6" GridPane.rowIndex="10"  />
+        <TextField fx:id="città" GridPane.columnIndex="7" GridPane.rowIndex="10"  />
+        <Button text="and" GridPane.columnIndex="8" GridPane.rowIndex="10" onAction="#AND"/>
+        <Button text="or" GridPane.columnIndex="9" GridPane.rowIndex="10" onAction="#OR"/>
+        
+
+        <Button text="cerca" GridPane.columnIndex="1" GridPane.rowIndex="12" onAction="#Ricerca2"/>
+        <Label fx:id = "label" text="" GridPane.columnIndex="1" GridPane.rowIndex="18"  />
+
+    </GridPane>
+
+
+
+</Pane>
